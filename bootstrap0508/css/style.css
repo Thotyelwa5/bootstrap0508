@@ -7,6 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url(../images/Premium\ Photo\ _\ Modern\ black\ office\ desk\ with\ office\ supplies\ and\ copy\ space\ for\ presentation\ background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 10rem;
+}
 .d-flex{
   justify-content: center;
   padding: 0;
@@ -15,6 +22,10 @@
   transform: translate(-70deg);
   bottom:20%;
   /* position: absolute; */
+}
+.img-fluid{
+  width: 80%;
+  height: 350px;
 }
 
 .navbar-nav .nav-item .nav-link{
@@ -141,7 +152,7 @@ justify-content: center;
   border-radius: 1rem;
   text-decoration: none;
   color: black;
-  background-color: aquamarine;
+  background-color: rgb(78, 112, 101);
 
 }
 .container3 a:hover{
@@ -192,16 +203,28 @@ justify-content: center;
   width: 60%;
   height: 40%;
 }
-.container4{
+.progressbar{
 
   width: 50%;
   margin-left: 3rem;
   margin-right: 3rem;
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 700px) {
+  .everything{
+    flex-direction: column;
+  }
+  .hi{
+    margin-bottom: 7.5rem;
+  }
+  .hii{
+    margin-bottom: 10rem;
+  }
+}
+.skills{
+  height: fit-content;
+  width: fit-content;
+}
+h1,h6,h4,.contact,.aboutme,label,.progress-title{
+  color: #f1f1f1;
+}
